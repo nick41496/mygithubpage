@@ -324,6 +324,6 @@ footer {
   }
 }
 
-body.content {
+div.content {
   overflow: auto;
 }
