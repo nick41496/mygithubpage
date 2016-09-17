@@ -242,10 +242,10 @@ hr {
 }
 
 footer {
-  width:270px;
   float:left;
-  position:fixed;
-  bottom:50px;
+  text-align:center;
+  position:relative;
+  width:100%;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -326,4 +326,15 @@ footer {
 
 div.content {
   overflow: auto;
+}
+
+.btn-email{color:grey;background-color:#ddd;border-color:rgba(0,0,0,0.2)}.btn-email:focus,.btn-email.focus{color:grey;background-color:#BBB;border-color:rgba(0,0,0,0.2)}
+.btn-email:hover{color:grey;background-color:#bbb;border-color:rgba(0,0,0,0.2)}
+.btn-email:active,.btn-email.active,.open>.dropdown-toggle.btn-email{color:grey;background-color:#bbb;border-color:rgba(0,0,0,0.2)}.btn-email:active:hover,.btn-email.active:hover,.open>.dropdown-toggle.btn-email:hover,.btn-email:active:focus,.btn-email.active:focus,.open>.dropdown-toggle.btn-email:focus,.btn-email:active.focus,.btn-email.active.focus,.open>.dropdown-toggle.btn-email.focus{color:grey;background-color:#a9a9a9;border-color:rgba(0,0,0,0.2)}
+.btn-email:active,.btn-email.active,.open>.dropdown-toggle.btn-email{background-image:none}
+.btn-email.disabled,.btn-email[disabled],fieldset[disabled] .btn-email,.btn-email.disabled:hover,.btn-email[disabled]:hover,fieldset[disabled] .btn-email:hover,.btn-email.disabled:focus,.btn-email[disabled]:focus,fieldset[disabled] .btn-email:focus,.btn-email.disabled.focus,.btn-email[disabled].focus,fieldset[disabled] .btn-email.focus,.btn-email.disabled:active,.btn-email[disabled]:active,fieldset[disabled] .btn-email:active,.btn-email.disabled.active,.btn-email[disabled].active,fieldset[disabled] .btn-email.active{background-color:#ddd;border-color:rgba(0,0,0,0.2)}
+.btn-email .badge{color:#ddd;background-color:grey}
+
+img {
+  margin-bottom:20px;
 }
