@@ -56,7 +56,7 @@
 
 body {
   background-color: #fff;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 30px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -253,6 +253,10 @@ footer {
 
 @media print, screen and (max-width: 960px) {
 
+  body {
+    padding-top:0px;
+  }
+
   div.wrapper {
     width:auto;
     margin:0;
@@ -306,7 +310,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:60px 15px;
   }
 
   header ul {
