@@ -243,6 +243,7 @@ hr {
 
 footer {
   float:left;
+  margin:10px 0;
   text-align:center;
   position:relative;
   width:100%;
@@ -339,21 +340,8 @@ div.content {
 img {
   margin-bottom:20px;
 }
-    
-form .field {
-  position: relative;
-  float: left;
-  margin: 0 0 1.25em 0;
-  vertical-align: top;
-  width: 100%;
-}
 
-form .half {
-  width: calc(50% + 0.625em) !important;
-  padding-left: 1.25em;
-}
-
-form .half.first {
-  width: calc(50% - 0.625em) !important;
-  padding-left: 0;
+.align-right {
+  float:right;
+  margin-right:15px;
 }
