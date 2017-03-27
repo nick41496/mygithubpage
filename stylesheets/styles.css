@@ -341,6 +341,11 @@ div.content {
 .btn-email.disabled,.btn-email[disabled],fieldset[disabled] .btn-email,.btn-email.disabled:hover,.btn-email[disabled]:hover,fieldset[disabled] .btn-email:hover,.btn-email.disabled:focus,.btn-email[disabled]:focus,fieldset[disabled] .btn-email:focus,.btn-email.disabled.focus,.btn-email[disabled].focus,fieldset[disabled] .btn-email.focus,.btn-email.disabled:active,.btn-email[disabled]:active,fieldset[disabled] .btn-email:active,.btn-email.disabled.active,.btn-email[disabled].active,fieldset[disabled] .btn-email.active{background-color:#ddd;border-color:rgba(0,0,0,0.2)}
 .btn-email .badge{color:#ddd;background-color:grey}
 
+.btn-likelater {
+    background-color: #444;
+    border-color:rgba(0,0,0,0.2);
+}
+
 img {
   margin-bottom:20px;
 }
