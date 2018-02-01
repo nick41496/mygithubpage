@@ -342,12 +342,13 @@ div.content {
 .btn-email .badge{color:#ddd;background-color:grey}
 
 .btn-likelater {
-    background-color: #444;
-    border-color:rgba(0,0,0,0.2);
+  background-color: #444;
+  border-color:rgba(0,0,0,0.2);
 }
 
-img {
-  margin-bottom:20px;
+.btn-beatnik {
+  background-color: #bbb;
+  border-color:rgba(0,0,0,0.2);
 }
 
 .align-right {
