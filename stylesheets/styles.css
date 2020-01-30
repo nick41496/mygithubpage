@@ -122,3 +122,7 @@ div.content {
 .jumbotron h1 {
   color:#222;
 }
+
+.header-link {
+  color:unset;
+}
