@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   padding-top: 60px;
   padding-bottom: 30px;
-  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -97,21 +97,9 @@ div.content {
   overflow: auto;
 }
 
-.btn-email{color:grey;background-color:#ddd;border-color:rgba(0,0,0,0.2)}.btn-email:focus,.btn-email.focus{color:grey;background-color:#BBB;border-color:rgba(0,0,0,0.2)}
-.btn-email:hover{color:grey;background-color:#bbb;border-color:rgba(0,0,0,0.2)}
-.btn-email:active,.btn-email.active,.open>.dropdown-toggle.btn-email{color:grey;background-color:#bbb;border-color:rgba(0,0,0,0.2)}.btn-email:active:hover,.btn-email.active:hover,.open>.dropdown-toggle.btn-email:hover,.btn-email:active:focus,.btn-email.active:focus,.open>.dropdown-toggle.btn-email:focus,.btn-email:active.focus,.btn-email.active.focus,.open>.dropdown-toggle.btn-email.focus{color:grey;background-color:#a9a9a9;border-color:rgba(0,0,0,0.2)}
-.btn-email:active,.btn-email.active,.open>.dropdown-toggle.btn-email{background-image:none}
-.btn-email.disabled,.btn-email[disabled],fieldset[disabled] .btn-email,.btn-email.disabled:hover,.btn-email[disabled]:hover,fieldset[disabled] .btn-email:hover,.btn-email.disabled:focus,.btn-email[disabled]:focus,fieldset[disabled] .btn-email:focus,.btn-email.disabled.focus,.btn-email[disabled].focus,fieldset[disabled] .btn-email.focus,.btn-email.disabled:active,.btn-email[disabled]:active,fieldset[disabled] .btn-email:active,.btn-email.disabled.active,.btn-email[disabled].active,fieldset[disabled] .btn-email.active{background-color:#ddd;border-color:rgba(0,0,0,0.2)}
-.btn-email .badge{color:#ddd;background-color:grey}
-
-.btn-likelater {
-  background-color: #444;
-  border-color:rgba(0,0,0,0.2);
-}
-
-.btn-beatnik {
-  background-color: #bbb;
-  border-color:rgba(0,0,0,0.2);
+.btn-social-icon {
+  margin-bottom: 4px;
+  border: none;
 }
 
 .align-right {
@@ -125,4 +113,16 @@ div.content {
 
 .header-link {
   color:unset;
+  margin: auto;
+}
+
+.image-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.link-container {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #494949;
 }
